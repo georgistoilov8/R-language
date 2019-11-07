@@ -13,3 +13,8 @@ lines(density(z))
 lines(x, y, col = 'red')
 
 1.b)
+z = runif(100, 1, 5)
+boxplot(z, horizontal = T)
+hist(z)
+hist(z, probability = T)
+lines(density(z))
