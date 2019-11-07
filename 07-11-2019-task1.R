@@ -18,3 +18,12 @@ boxplot(z, horizontal = T)
 hist(z)
 hist(z, probability = T)
 lines(density(z))
+
+1.c)
+z = rexp(100, 3)
+boxplot(z) 
+hist(z)
+hist(z, probability = T)
+lines(density(z))
+
+1.d)
