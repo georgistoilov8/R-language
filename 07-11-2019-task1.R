@@ -1,3 +1,5 @@
+За бързо намиране на функция, на която не знаем името се ползва apropos("what you search")
+
 1.a)
 z = rnorm(100, 5, sqrt(2))
 boxplot(z, horizontal = T)
