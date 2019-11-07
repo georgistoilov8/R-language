@@ -1,3 +1,4 @@
+1.a)
 z = rnorm(100, 5, sqrt(2))
 boxplot(z, horizontal = T)
 hist(z)
@@ -10,3 +11,5 @@ z = rnorm(1000, 5, sqrt(2))
 hist(z, probability = T)
 lines(density(z))
 lines(x, y, col = 'red')
+
+1.b)
